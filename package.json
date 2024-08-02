@@ -1,0 +1,21 @@
+{
+  "name": "conteitos-node-2.0",
+  "version": "1.0.0",
+  "main": "server.js",
+  "description": "Este projeto é um conceito básico de como funciona o Node.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "Wivim David",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.17.0"
+  }
+}
